@@ -94,6 +94,7 @@ body::-webkit-scrollbar {
     border: 1px solid transparent;
     text-decoration: none;
     color: #333;
+    opacity: 0.5;
 }
 
 .nav-panel-item:hover
