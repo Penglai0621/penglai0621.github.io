@@ -74,10 +74,9 @@ body::-webkit-scrollbar {
     margin-right: auto;
     padding-left: 30px;
     padding-top: 10px;
-    background-color: #FFFFFF;
+    background-color: none;
     border: 1px solid rgb(210,210,210);
     border-radius: 10px;
-    opacity: 0.5
 }
 
 .nav-panel-line{
