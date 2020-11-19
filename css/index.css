@@ -77,7 +77,7 @@ body::-webkit-scrollbar {
     background-color: #FFFFFF;
     border: 1px solid rgb(210,210,210);
     border-radius: 10px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .nav-panel-line{
