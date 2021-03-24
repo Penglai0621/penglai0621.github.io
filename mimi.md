@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-<head>这是一个实验网页
-</head>
 <body>
+<h1>这是一个实验网页
+</h1>
 <p>哈哈哈
 </p>
 <p>嘿嘿嘿
