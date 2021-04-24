@@ -99,7 +99,7 @@ strike {
 
 .photo-bg {
     /* background-image: url(assets/background.jpg); */
-    background-image: url(./02.jpg);
+    background-image: url(assets/tx.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +158,7 @@ footer p {
         padding: 20px;
     }
 }
-body{background-image:url(02bj.jpg); 
+body{background-image:url(assets/bj.jpg); 
     background-repeat:no-repeat;background-position:100%} 
     .title{
         text-align: center;
