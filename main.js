@@ -23,30 +23,30 @@ const ap = new APlayer({
     autoplay: true
 });
 
-//beta
-// var jsonurl = "https://acg.wgb.ink/netease.php?id=" + music_id;
+beta
+ var jsonurl = "https://acg.wgb.ink/netease.php?id=" + music_id;
 
-// var obj = JSON.parse(jsonurl);
+ var obj = JSON.parse(jsonurl);
 
-// function loadXMLDoc() {
-//     var xmlhttp;
-//     if (window.XMLHttpRequest) {
-//         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
-//         xmlhttp = new XMLHttpRequest();
-//     } else {
-//         // IE6, IE5 浏览器执行代码
-//         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-//     }
-//     xmlhttp.onreadystatechange = function() {
-//         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-//             var jsonurl1 = xmlhttp.responseText;
-//             return jsonurl1;
-//         }
-//     }
-//     xmlhttp.open("GET", jsonurl, true);
-//     xmlhttp.send();
-// }
-// loadXMLDoc();
+ function loadXMLDoc() {
+     var xmlhttp;
+     if (window.XMLHttpRequest) {
+           IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+          xmlhttp = new XMLHttpRequest();
+     } else {
+         IE6, IE5 浏览器执行代码
+         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+     xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var jsonurl1 = xmlhttp.responseText;
+             return jsonurl1;
+         }
+     }
+     xmlhttp.open("GET", jsonurl, true);
+     xmlhttp.send();
+ }
+ loadXMLDoc();
 
 
 console.log('\n' + ' %c PersonalWebSite by 风也温柔 ' + ' %c https://eas1.cn/posts/165.html ' + '\n' + '\n', 'color: #fff; background: #fd79a8; padding:5px 0;', 'background: #FFF; padding:5px 0;');
